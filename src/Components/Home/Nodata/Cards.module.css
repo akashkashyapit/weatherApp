@@ -1,0 +1,28 @@
+.box {
+  background: #606c88; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #3f4c6b,
+    #606c88
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #3f4c6b,
+    #606c88
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 490px;
+  width: 290px;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 1px solid rgb(42, 42, 44); */
+}
+
+.notFound {
+  color: white;
+  text-align: center;
+  text-shadow: #4d646d;
+  font-size: 30px;
+  font-weight: 800;
+  padding-top: 100px;
+}

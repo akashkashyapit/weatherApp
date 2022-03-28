@@ -1,0 +1,96 @@
+.boxday {
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #2980b9,
+    #6dd5fa,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+  height: 490px;
+  width: 290px;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 1px solid rgb(42, 42, 44); */
+}
+
+.boxnight {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #505153,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #505153,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 490px;
+  width: 290px;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 1px solid rgb(42, 42, 44); */
+}
+
+.city {
+  color: white;
+  padding: 2px;
+  padding-top: 10px;
+}
+
+.vl {
+  border-left: 1px solid white;
+  height: 50px;
+}
+.temp {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.flexcontainer {
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+}
+.flexcontainercolumn {
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+  direction: column;
+}
+
+.flex-container > div {
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.item1 {
+  flex-grow: 1;
+}
+.item3 {
+  flex-grow: 3;
+}
+
+.cloudy {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.cityName {
+  margin-top: 5px;
+  background-color: rgb(165, 163, 163);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.image{
+  padding-left: 35px;
+}
