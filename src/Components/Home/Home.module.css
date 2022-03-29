@@ -8,11 +8,23 @@
 .search{
   /* background-color: brown; */
   margin: 5px;
-  width: 275px;
+  width: 290px;
   height: 50px;
   border-radius: 5px;
   color: darkslategrey;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+.cityName{
+  color: white;
+  background-color: red;
+  width: 300px;
+  text-align: center;
+  height: 40px;
+  padding-top: 8px;
+  border-radius: 2px;
+  box-shadow: 2px 3px solid black;
+  font-weight: 600;
 }

@@ -22,6 +22,7 @@ export default function Home() {
   }, [search]);
   return (
     <div className={styles.box}>
+      <div className={styles.cityName}>City:<b>{data.name}</b> </div>
       <input
         type="serach"
         value={search}

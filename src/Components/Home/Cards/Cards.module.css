@@ -8,7 +8,7 @@
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
   height: 490px;
-  width: 290px;
+  width: 310px;
   border-radius: 18px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* border: 1px solid rgb(42, 42, 44); */
@@ -72,6 +72,7 @@
 
 .item1 {
   flex-grow: 1;
+  text-shadow: 2px 0px 3px #666464
 }
 .item3 {
   flex-grow: 3;
@@ -92,5 +93,13 @@
 }
 
 .image{
-  padding-left: 35px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.bottomText{
+  color: white;
+  padding-bottom: 5px;
+  height: 30px;
+  text-align: left;
 }
