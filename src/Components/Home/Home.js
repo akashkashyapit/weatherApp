@@ -22,17 +22,20 @@ export default function Home() {
   }, [search]);
   return (
     <div className={styles.box}>
-      <div className={styles.cityName}>City:<b>{data.name}</b> </div>
-      <input
-        type="serach"
-        value={search}
-        onChange={(event) => {
-          setSearch(event.target.value);
-        }}
-        className={styles.search}
-      ></input>
+      {/* <div className={styles.cityName}>City:<b>{data.name}</b> </div> */}
+      <div className={styles.searchBox}>
+        <input
+          type="serach"
+          value={search}
+          onChange={(event) => {
+            setSearch(event.target.value);
+          }}
+          className={styles.search}
+        ></input>
+      </div>
+
       {console.log("data", data)}
-      {data ? <Suns data={data} /> : <Nodata/>}
+      {data ? <Suns data={data} /> : <Nodata />}
     </div>
   );
 }

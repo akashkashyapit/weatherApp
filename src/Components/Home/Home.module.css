@@ -1,7 +1,10 @@
 .box{
   background-color: rgba(165, 42, 42, 0);
-  margin-left: 40%;
-  padding-top: 50px;
+  display: flex;
+  /* margin-right: auto; */
+  padding-top: 70px;
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -17,7 +20,14 @@
   margin-bottom: 20px;
 }
 
-.cityName{
+.searchBox{
+  /* background: brown; */
+  position:absolute ;
+  top:45px;
+  margin-bottom: 40px;
+}
+
+/* .cityName{
   color: white;
   background-color: red;
   width: 300px;
@@ -27,4 +37,4 @@
   border-radius: 2px;
   box-shadow: 2px 3px solid black;
   font-weight: 600;
-}
+} */
