@@ -13,7 +13,7 @@ export default function HomePage() {
         
         
       </Head>
-      <div className={styles.mainHead}>Weather App (Search By City!)</div>
+      <div className={styles.mainHead}>Weather App (Search By City)</div>
       <Home />
     </div>
   );
