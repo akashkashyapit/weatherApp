@@ -4,5 +4,3 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-
-NODE_ENV=production npm start
